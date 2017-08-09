@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8"/>
+    <title>结果下载</title>
+</head>
+<body>
+<div>
+    <form method="POST" action="/excel/download">
+        生成文件名：<input type="text" name="filePath" th:value="${path}" />
+        &nbsp;&nbsp;
+        <input type="hidden" name="type" th:value="${type}"/>
+        <input type="submit" value="下载生成文件"/>
+
+    </form>
+
+</div>
+</body>
+</html>
