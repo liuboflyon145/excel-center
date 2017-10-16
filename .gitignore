@@ -3,3 +3,6 @@
 /app
 /temp
 /target
+.idea/*
+.DS_Store
+

@@ -64,7 +64,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
     additivity：作用在于children-logger是否使用 rootLogger配置的appender进行输出，false：表示只用当前logger的appender-ref，true：表示当前logger的appender-ref和rootLogger的appender-ref都有效
     -->
     <!-- hibernate logger -->
-    <logger name="org.hibernate" level="error" />
+    <!--<logger name="org.hibernate" level="error" />-->
     <!-- Spring framework logger -->
     <logger name="org.springframework" level="error" additivity="false"></logger>
 

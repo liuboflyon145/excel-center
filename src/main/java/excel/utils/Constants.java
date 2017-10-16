@@ -6,4 +6,6 @@ package excel.utils;
  */
 public class Constants {
     public static final String SYSTEM_SEPARATOR = "/";
+
+    public static final String BLANK = "";
 }
