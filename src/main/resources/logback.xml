@@ -68,7 +68,7 @@ debug：当此属性设置为true时，将打印出logback内部日志信息，�
     <!-- Spring framework logger -->
     <logger name="org.springframework" level="error" additivity="false"></logger>
 
-    <logger name="com.creditease" level="info" additivity="true">
+    <logger name="excel" level="info" additivity="true">
         <appender-ref ref="appLogAppender" />
     </logger>
 
